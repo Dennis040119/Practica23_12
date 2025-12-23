@@ -1,4 +1,4 @@
-h1{
+h1,h3,p,span{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
     font-weight: normal;
 }
@@ -21,6 +21,9 @@ label{
 form {
     width: 80%;
     margin-bottom: 1rem;
+    background-color: aliceblue;
+    align-self: center;
+    margin-left: 3rem;
 
     fieldset {
         border-radius: 0.25rem;
@@ -51,21 +54,34 @@ form {
 }
 
 .formulario{
-     width: 90%;
-    margin-bottom: 1rem;
-    margin-left: 2rem;
-    
+    width: 90%;
+   
+    margin-left: 1rem;
+    background-color: #1b309c;
+    height: 100%;
+    display: block;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
 }
 
-form{
-    background-color: aliceblue;
+.titulo{
+    align-items: center;
+    justify-content: center;
+    align-self: center;
 }
+
+h1{
+    margin-left: 15rem;
+}
+
+
 
 .tarjetas{
     width: 70%;
-    
-    margin-left: 2rem;
-    margin-right: 2rem;
+    background-color: rgb(194, 219, 48);
+    height: 100%;
+    margin-right: 1rem;
 }
 
 .select{
@@ -75,6 +91,10 @@ form{
 
 button{
     background-color: none;
+}
+
+.limpiarbtn{
+    margin-left: 3rem;
 }
 
 

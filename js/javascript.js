@@ -113,6 +113,7 @@ function borrar(id) {
     .done(function(data,textStatus,jqXHR){
         console.log(textStatus);
         crearTarjeta()
+        limpiar();
     })
     .fail(function (jqXHR,error,errorThrown) {
         console.log("Error al eliminar: "+error)
