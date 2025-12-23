@@ -14,8 +14,7 @@ RUN npm install
 # Copia el resto del código y construye
 COPY . .
 
-# Genera la carpeta build
-RUN npm run build
+
 
 
 
