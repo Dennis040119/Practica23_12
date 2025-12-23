@@ -1,0 +1,146 @@
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-weight: normal;
+}
+
+:root {
+    --color-borde: lightgray;
+    --color-fondo-claro: rgb(227, 227, 227);
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    width: 100%;
+}
+
+label{
+    margin-right: 5rem;
+}
+
+form {
+    width: 80%;
+    margin-bottom: 1rem;
+
+    fieldset {
+        border-radius: 0.25rem;
+        border: 1px solid var(--color-borde);
+    }
+
+    legend {
+        font-weight: 500;
+    }
+
+    div {
+        display: flex;
+    }
+
+    label {
+        width: 10rem;
+    }
+
+    input {
+        flex-grow: 1;
+
+        border: 1px solid var(--color-borde);
+        border-radius: 0.25rem;
+        padding: 0.25rem;
+
+        margin-bottom: 0.5rem;
+    }
+}
+
+.formulario{
+     width: 90%;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    
+}
+
+form{
+    background-color: aliceblue;
+}
+
+.tarjetas{
+    width: 70%;
+    
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.select{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+button{
+    background-color: none;
+}
+
+
+/*Estilos de las tarjetas*/
+
+/* Grid responsivo */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 16px;
+}
+
+/* Tarjeta */
+.card {
+  background: #9ba5de;            /* color ejemplo */
+  border: 1px solid #2b335d;
+  border-radius: 12px;
+  padding: 12px;
+  display: grid;
+  gap: 8px;
+  height: 60%;
+  width: 80%;
+  margin: 1rem;
+}
+
+.card .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.card .meta {
+  font-size: 13px;
+  
+  display: grid;
+  gap: 4px;
+}
+
+.card .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+
+.card a {
+  font-size: 13px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  background: #43509e;
+  border: 1px solid #2b335d;
+  color: #e7ebff;
+  cursor: pointer;
+  width: 20%;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+section{
+    margin-left: 1rem;
+}

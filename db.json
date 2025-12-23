@@ -1,0 +1,17 @@
+{
+    "servidores": [
+      {
+        "nombre": "server1",
+        "cpu": "inter i5",
+        "ram": "8gb",
+        "almacenamiento": "500 gb"
+      },
+      {
+        "nombre": "server2",
+        "cpu": "amd 7",
+        "ram": "4gb",
+        "almacenamiento": "250 gb"
+      }
+      
+    ]
+  }
