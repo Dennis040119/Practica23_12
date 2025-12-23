@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="css/estilo.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-   
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
     
 </head>
@@ -21,7 +21,7 @@
         <div class="titulo"> <h1>TechSpecs Manager</h1>  </div>
           <form action="javascript:guardar()" class="form">
         <fieldset >
-            <h3>Formulario de Servidores</h3>
+            <h2>Formulario de Servidores</h2>
 
             <div>
                 <label for="nombre">Nombre del Servidor</label>
@@ -38,13 +38,13 @@
 
             </div>
             <div>
-                <label for="ram">Ram</label>
+                <label for="ram">Cantidad de Ram</label>
                 <input id="ram" type="number" min="4">
             </div>
 
-            <div>
+            <div class="select">
 
-                <div class="select">
+                
                     <label for="alm">Almacenamiento:</label>
                     <select id="alm" name="opciones" >
                     <option value="250 Gb">250 Gb </option>
@@ -53,14 +53,17 @@
                     
                     </select>
     
-                </div>
+               
                 
             </div>
-           
+            
+
+            <div class="fot"> 
+            <p id="presupuesto"></p>
 
             <button>Guardar</button>
 
-            <p id="presupuesto"></p>
+            </div>
         </fieldset>
     </form>
 

@@ -1,29 +1,37 @@
-h1,h3,p,span{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+h1,h2,h3,p,span,a{
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
+    color:#9ba5de;
 }
 
-:root {
-    --color-borde: lightgray;
-    --color-fondo-claro: rgb(227, 227, 227);
+
+
+html {
+    background-color: #2f3a74;
 }
 
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     width: 100%;
+    
 }
 
 label{
     margin-right: 5rem;
+    color:#9ba5de;
 }
 
 form {
     width: 80%;
     margin-bottom: 1rem;
-    background-color: aliceblue;
+    background-color: none;
     align-self: center;
     margin-left: 3rem;
+
+    h2{
+        color: #9ba5de;
+    }
 
     fieldset {
         border-radius: 0.25rem;
@@ -44,12 +52,15 @@ form {
 
     input {
         flex-grow: 1;
-
         border: 1px solid var(--color-borde);
         border-radius: 0.25rem;
         padding: 0.25rem;
 
         margin-bottom: 0.5rem;
+    }
+
+    select{
+        width: 30%;
     }
 }
 
@@ -57,7 +68,7 @@ form {
     width: 90%;
    
     margin-left: 1rem;
-    background-color: #1b309c;
+    background-color: #2f3a74;
     height: 100%;
     display: block;
     align-content: center;
@@ -78,19 +89,42 @@ h1{
 
 
 .tarjetas{
-    width: 70%;
-    background-color: rgb(194, 219, 48);
-    height: 100%;
+    width: 80%;
+    background-color: #2f3a74;
+    height: fit-content;
     margin-right: 1rem;
+   
+    h3,h1,b,span,p{
+        color: #1d285c;
+    }
 }
 
 .select{
     margin-top: 1rem;
     margin-bottom: 1rem;
+
+    label{
+        width: 10rem;
+    }
+
+    
+}
+
+.fot{
+    display: flex;
+    align-items: center;
+
+
+    button{
+        height: 30%;
+        width: 20%;
+        margin-left: 11rem;
+    }
 }
 
 button{
     background-color: none;
+    width: 20%;
 }
 
 .limpiarbtn{
@@ -105,6 +139,7 @@ button{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   gap: 16px;
+  overflow: auto;
 }
 
 /* Tarjeta */
@@ -128,11 +163,11 @@ button{
 
 .card h3 {
   margin: 0;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .card .meta {
-  font-size: 13px;
+  font-size: 16px;
   
   display: grid;
   gap: 4px;
@@ -142,19 +177,23 @@ button{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  width: 90%;
+  height: auto;
+  margin-bottom: 1rem;
   
 }
 
 
 .card a {
-  font-size: 13px;
+  font-size: 15px;
   padding: 6px 10px;
   border-radius: 8px;
+  font-style: normal;
   background: #43509e;
   border: 1px solid #2b335d;
   color: #e7ebff;
   cursor: pointer;
-  width: 20%;
+  width: 30%;
   margin-top: 1rem;
   margin-left: 1rem;
   margin-bottom: 1rem;

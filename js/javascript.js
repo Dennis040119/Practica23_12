@@ -16,7 +16,7 @@ function totalizar(){
     document.getElementById("presupuesto").textContent="Total: "+presupuesto+" €"
 }
 /////////////////
-document.getElementsByClassName("formulario").addEventListener("change", total);    
+    
 
 function total() {
 
@@ -79,14 +79,14 @@ function crearTarjeta() {
 
                     '<div class="header">'+
                         '<h3>'+this.nombre +'</h3>'+
-                        '<span class="badge">Procesador:  '+this.cpu+'</span> </div>'+
+                        '<span class="badge"></div>'+
 
                     '<div class="meta">'+
+                        '<div><b>CPU: </b>' +this.cpu+'</div>'+
                         '<div><b>Ram: </b>' +this.ram+'</div>'+
                         '<div><b>Almacenamiento: </b>' +this.almacenamiento+'</div></div>'+
 
                     '<div class="buttons">'+
-                        '<a  onclick="editar('+this.id+')">Editar</a>'+
                         '<a  onclick="borrar('+this.id+')">Borrar</a>'+
                     '</div>';
 
